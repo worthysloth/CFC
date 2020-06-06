@@ -4,7 +4,7 @@ import React from 'react'
 const HelpListInput = (props) => {
     return (
         <div>
-            <input type="text" name="" id=""/>
+            <input type="text" name={props.name} id={props.id}/>
         </div>
     )
 }

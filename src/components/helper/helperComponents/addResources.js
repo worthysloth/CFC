@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 const resourceList = {
     water: 0,
     food: 0,
-}
+};
 
 const AddResources = (resource,selection) => {
 
@@ -36,6 +36,6 @@ const AddResources = (resource,selection) => {
             <h2>Food: {foodCount} Water: {waterCount}</h2>
         </div>
     );
-}
+};
 
 export default AddResources;

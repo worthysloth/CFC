@@ -12,6 +12,6 @@ export default class mainPage extends Component {
                 <button className="nextPageButton">Helpers</button>
                 </Link>
             </div>
-        )
-    }
-}
+        );
+    };
+};

@@ -6,10 +6,10 @@ export default class mainPage extends Component {
         return (
             <div>
                 <Link to="/victims">
-                <button>Victims</button>
+                <button className="nextPageButton">Victims</button>
                 </Link>
                 <Link to="/help">
-                <button>Helpers</button>
+                <button className="nextPageButton">Helpers</button>
                 </Link>
             </div>
         )

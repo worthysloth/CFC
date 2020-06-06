@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 import GeoLocation from "./helperComponents/GeoLocation"
+import CustomLists from "./helperComponents/CustomList"
+
 
 class helpFirstPage extends Component {
 
@@ -9,6 +11,8 @@ class helpFirstPage extends Component {
             <div>
                 <h1>Help First Page</h1>
                 <GeoLocation />
+                <CustomLists />
+
             </div>
         )
     }

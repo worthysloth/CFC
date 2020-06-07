@@ -1,19 +1,18 @@
+
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-
-/* Component Import */
-import GeoLocation from "./helperComponents/GeoLocation"
-import CustomHelpList from "./helperComponents/CustomHelpList"
-
+/* Helper Components Import */
+import GeoLocation from "./helperComponents/GeoLocation";
+import ResourceSelection from "./helperComponents/ResourceSelection"
 
 class helpFirstPage extends Component {
-
+    
     render() {
         return (
             <div>
                 <h1>Help First Page</h1>
                 <GeoLocation />
-                <CustomHelpList>Water</CustomHelpList>
+                <ResourceSelection />
             </div>
         )
     }

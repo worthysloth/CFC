@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 /* Helper Components Import */
@@ -6,7 +5,7 @@ import GeoLocation from "./helperComponents/GeoLocation";
 import ResourceSelection from "./helperComponents/ResourceSelection"
 
 class helpFirstPage extends Component {
-    
+
     render() {
         return (
             <div>

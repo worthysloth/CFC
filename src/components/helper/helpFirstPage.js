@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import GeoLocation from "./helperComponents/GeoLocation"
-import HelpListInput from "./helperComponents/HelpListInput"
+import HelpFormOffer from "./helperComponents/HelpFormOffer"
 
 
 class helpFirstPage extends Component {
@@ -11,10 +11,7 @@ class helpFirstPage extends Component {
             <div>
                 <h1>Help First Page</h1>
                 <GeoLocation />
-                <form>
-                    <HelpListInput />
-                </form>
-
+                <HelpFormOffer />
             </div>
         )
     }

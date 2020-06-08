@@ -6,7 +6,8 @@ toiletPaper: null,
 desinfectant: null,
 soap: null,
 tissues: null,
-sanitaryPad: null */
+sanitaryPad: null 
+added this for test*/
 
 const HygExtra = () => {
 

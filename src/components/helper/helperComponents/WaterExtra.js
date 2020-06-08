@@ -2,14 +2,18 @@ import React, { useState } from 'react'
 
 const WaterExtra = (props) => {
 
-    const [selectedState, setSelected] = useState({choice: "ten-twenty"})
+    const [selectedState, setSelected] = useState({choice: ""})
 
     const selectionHandler = (event) => {
         setSelected({choice: event.target.value})
         console.log(selectedState.choice)
         };
 
-
+    const submitHandle = (event) => {
+        setSelected({choice: event.target.value})
+        console.log(selectedState.choice)
+        event.preventDefault()
+    };
 
     return (
         <div>
@@ -20,6 +24,7 @@ const WaterExtra = (props) => {
                     <option value="ten-twenty">Between 10L and 20L</option>
                     <option value="more-twenty">More than 20L</option>
                 </select>
+                <input type="submit" onSubmit={submitHandle}/>
             </form>
         </div>
     )

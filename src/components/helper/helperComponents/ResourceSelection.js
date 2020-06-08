@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
 import WaterExtra from "./WaterExtra"
+import FoodExtra from "./FoodExtra"
+import HygExtra from "./HygExtra"
+
 
 const ResourceSelection = (props) => {
 
@@ -31,10 +34,10 @@ const ResourceSelection = (props) => {
         waterContent = <WaterExtra/>
     }
     if (foodState.checked) {
-        foodContent = <p>Food</p>
+        foodContent = <FoodExtra/>
     }
     if (hygieneState.checked) {
-        hygieneContent = <p>Hygiene</p>
+        hygieneContent = <HygExtra/>
     }
 
     return (

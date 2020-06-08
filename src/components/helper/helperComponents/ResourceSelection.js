@@ -60,5 +60,4 @@ const ResourceSelection = (props) => {
         </div>
     );
 };
-
 export default ResourceSelection;
